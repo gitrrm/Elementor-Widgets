@@ -1,0 +1,32 @@
+jQuery(document).ready(function(){
+    jQuery('.teamsCarousel').owlCarousel({
+        loop:true,
+        margin:20,
+        responsiveClass:true,
+        nav:true,
+        navText: ["<i class='fa-solid fa-circle-arrow-left'></i>","<i class='fa-solid fa-circle-arrow-right'></i>"],
+        dots:false,
+        responsive:{
+            0:{
+                items:1,
+                nav:true,
+                loop:true
+            },
+            576:{
+                items:2,
+                nav:true,
+                loop:true
+            },
+            992:{
+                items:2,
+                nav:true,
+                loop:true
+            },
+            1024:{
+                items:3,
+                nav:true,
+                loop:true
+            }
+        }
+    });
+});
