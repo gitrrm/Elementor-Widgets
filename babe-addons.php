@@ -70,7 +70,7 @@ function babe_addons_init() {
             require_once( BABE_ADDONS_PLUGIN_DIR . 'includes/widgets/scrolling-text.php' ); 
             require_once( BABE_ADDONS_PLUGIN_DIR . 'includes/widgets/babe-scrolling-posts.php' ); 
             require_once( BABE_ADDONS_PLUGIN_DIR . 'includes/widgets/insights-blog-slider.php' ); 
-            require_once( BABE_ADDONS_PLUGIN_DIR . 'includes/widgets/babe-tab-content-widget.php' ); 
+            // require_once( BABE_ADDONS_PLUGIN_DIR . 'includes/widgets/babe-tab-content-widget.php' ); 
             require_once( BABE_ADDONS_PLUGIN_DIR . 'includes/widgets/blog-grid.php' ); 
             require_once( BABE_ADDONS_PLUGIN_DIR . 'includes/widgets/babe-post-slider.php' ); 
             require_once( BABE_ADDONS_PLUGIN_DIR . 'includes/widgets/team-tabs-vertical.php' ); 
@@ -95,7 +95,7 @@ function babe_addons_init() {
             $widgets_manager->register( new \Babe_Scrolling_Text() ); 
             $widgets_manager->register( new \Babe_Scrolling_posts() ); 
             $widgets_manager->register( new \Insights_Blog_Slider() ); 
-            $widgets_manager->register( new \Babe_Tab_Content_Widget() ); 
+            // $widgets_manager->register( new \Babe_Tab_Content_Widget() ); 
             $widgets_manager->register( new \Babe_Blog_Grid() ); 
             $widgets_manager->register( new \Babe_Post_Slider() ); 
             $widgets_manager->register( new \Babe_Team_Tabs_Vertical() ); 
